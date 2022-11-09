@@ -1,9 +1,9 @@
 import numpy as np
 from collections import defaultdict
 
-from ReadEndAnalysis.Globals import Strand
-from ReadEndAnalysis.DAL.Track.Counts import Counts
-from ReadEndAnalysis.DAL.Track.ChrCounts import ChrCounts
+from TRS.Globals import Strand
+from TRS.DAL.Track.Counts import Counts
+from TRS.DAL.Track.ChrCounts import ChrCounts
 
 
 def save(counts, path):

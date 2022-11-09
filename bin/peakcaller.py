@@ -340,7 +340,7 @@ def main():
             window_width=settings.window_margin,
             merge_distance=settings.merge_distance,
             rel_height=settings.rel_height,
-            min_height=settings.min_height,
+            min_height=min_height,
         )
 
         pvals_list = []

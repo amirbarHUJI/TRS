@@ -20,6 +20,9 @@ classifiers = [
 ]
 dependencies = ['scipy', 'numpy', 'pysam', 'pandas', 'intervaltree', 'statsmodels', 'pyaml']
 
+[project.scripts]
+TRSpeaks = "TRS:main"
+
 [project.urls]
 "Homepage" = "https://github.com/amirbarHUJI/TRS"
 "Bug Tracker" = "https://github.com/amirbarHUJI/TRS/issues"

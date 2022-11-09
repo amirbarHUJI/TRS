@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "TRS"
+name = "TRSalgorithm"
 version = "0.0.1"
 authors = [
   { name="Amir Bar", email="amir.bar@mail.huji.ac.il" },

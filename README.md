@@ -43,7 +43,7 @@ This package requires the installation of the following packages:
 - intervaltree
 
 ### Installation
-Either ``pip install TRS`` or ``conda install TRS``
+Either ``pip install TRSalgorithm`` or ``conda install TRSalgorithm``
 
 ### Files required for running the program
 The package requires the following files to determine 3' termini:

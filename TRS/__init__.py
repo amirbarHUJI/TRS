@@ -1,7 +1,7 @@
 import yaml
 from collections import defaultdict
 
-from ARES.Lib import Lib
+from TRS.Lib import Lib
 
 
 def process_config(config_file):

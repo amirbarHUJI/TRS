@@ -2,10 +2,10 @@ import gzip
 import pickle
 import numpy as np
 
-from ARES.Globals import Strand
-from ARES.DAL.BAM.BamReader import BamReader
-from ARES.DAL.Track.ChrCounts import ChrCounts
-from ARES.DAL.Track.Counts import Counts
+from TRS.Globals import Strand
+from TRS.DAL.BAM.BamReader import BamReader
+from TRS.DAL.Track.ChrCounts import ChrCounts
+from TRS.DAL.Track.Counts import Counts
 
 
 def bam_to_coverage(

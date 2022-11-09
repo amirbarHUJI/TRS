@@ -5,11 +5,11 @@ import numpy as np
 from pathlib import Path
 from collections import namedtuple
 
-from ARES.Globals import Strand
-from ARES.DAL.BAM import bam_to_read_ends
-from ARES.DAL.Track.Counts import Counts
-from ARES.DAL.Track.ChrCounts import ChrCounts
-from ARES.DAL.Track import save, load
+from TRS.Globals import Strand
+from TRS.DAL.BAM import bam_to_read_ends
+from TRS.DAL.Track.Counts import Counts
+from TRS.DAL.Track.ChrCounts import ChrCounts
+from TRS.DAL.Track import save, load
 
 
 CountsTuple = namedtuple("CountsTuple", ["Position", "Coverage", "Ratio"])

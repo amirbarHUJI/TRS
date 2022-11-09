@@ -6,8 +6,8 @@ import pandas as pd
 from multiprocessing import Pool
 from intervaltree import IntervalTree
 
-from ARES.LibPeakCaller import LibPeakCaller
-from ARES.Globals import Strand
+from TRS.LibPeakCaller import LibPeakCaller
+from TRS.Globals import Strand
 
 
 def run_process(args):

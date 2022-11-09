@@ -1,4 +1,4 @@
-# ReadEndAnalysis
+# TRS
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -43,7 +43,7 @@ This package requires the installation of the following packages:
 - intervaltree
 
 ### Installation
-Either ``pip install ARES`` or ``conda install ARES``
+Either ``pip install TRS`` or ``conda install TRS``
 
 ### Files required for running the program
 The package requires the following files to determine 3' termini:

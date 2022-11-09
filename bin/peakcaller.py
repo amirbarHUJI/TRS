@@ -12,9 +12,9 @@ from scipy.stats import nbinom
 
 from statsmodels.stats.multitest import multipletests
 
-from ARES.MergedPeakCaller import  MergedPeakCaller
-from ARES.Globals import Strand
-from ARES.Lib import Lib
+from TRS.MergedPeakCaller import  MergedPeakCaller
+from TRS.Globals import Strand
+from TRS.Lib import Lib
 
 SIGNIFICANT_PEAKS_FILE = "significant_peaks.csv"
 ALL_MEAN_PEAKS_FILE = "all_mean_peaks.csv"

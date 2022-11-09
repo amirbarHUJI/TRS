@@ -1,6 +1,6 @@
 import pysam
 
-from ARES.Globals import Strand
+from TRS.Globals import Strand
 
 
 class BamReader(object):

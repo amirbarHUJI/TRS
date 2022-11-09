@@ -4,7 +4,7 @@ import numpy as np
 from scipy.signal import find_peaks
 
 
-from ARES.Globals import Strand, Peak
+from TRS.Globals import Strand, Peak
 
 
 class LibPeakCaller(object):

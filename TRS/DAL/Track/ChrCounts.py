@@ -1,6 +1,6 @@
 import numpy as np
 
-from ARES.Globals import Strand
+from TRS.Globals import Strand
 
 
 class ChrCounts(object):

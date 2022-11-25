@@ -1,0 +1,18 @@
+libs:
+  - name: "rep 1"
+    group: "LB RNAtag-seq"
+    count_file:
+      path: "rep1.bam"
+      is_reverse: True
+
+  - name: "rep 2"
+    group: "LB RNAtag-seq"
+    count_file:
+      path: "rep2.bam"
+      is_reverse: True
+
+  - name: "rep 3"
+    group: "LB RNAtag-seq"
+    count_file:
+      path: "rep3.bam"
+      is_reverse: True

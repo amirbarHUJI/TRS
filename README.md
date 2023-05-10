@@ -73,7 +73,7 @@ The package requires the following files to determine 3' termini:
 ## Running a demo example <span id="demo-example"></span>
 In the demo_example directory, you can find:
 1. A scheme file named `scheme.yaml`.
-2. Three BAM files named: `rep1.bam, rep2.bam, rep3.bam`.
+2. Three BAM files named: `rep1.bam, rep2.bam, rep3.bam` containing sequencing reads that were mapped to <em>E. coli</em> K-12 MG1655 reference genome (NC_000913.3).
 3. A directory named expected results containing two files: (1) significant peaks file - containing all signficant peaks identified. (2) all peaks file - containing all the peaks considered by the algorithm. This directory would use us to verify that everything runs properly.
 
 After the package is installed, you can run in the demo example directory the following command (running the demo example should not take over a minute on a standard computer):
